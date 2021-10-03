@@ -1,0 +1,113 @@
+#Header{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    font-size: 400%;
+    font-family: "Open Sans", "sans-serif";
+    font-weight: lighter;
+
+}
+
+.popForm{
+    width:12%;
+    height: 200px;
+    border: none;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: rgb(238, 238, 238);
+    transition: all 0.25s ease;
+}
+
+.popForm:hover{
+    background-color: rgb(199, 199, 199);
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    font-size: 222%;
+}
+
+
+#bookForm{
+    display: none;
+    text-align: center;
+    justify-content: center;
+
+}
+
+h3{
+    font-family: "Open Sans", "sans-serif";
+    font-weight: lighter;
+}
+
+fieldset{
+    border: none;
+}
+
+
+form{
+    border:solid;
+}
+
+#Catalogue{
+    display: flex;
+    justify-content: left;
+    border:none;
+    width:90%;
+    height:200px;
+    margin: 5% 5% 5% 5%;
+
+}
+
+#bookCard{
+    width:20%;
+    height:110%;
+    border:solid black;
+    text-align:center;
+    font-family: "Open Sans", "sans-serif";
+    font-weight: lighter;
+    font-size: x-large;
+    margin:  2% 2% 2% 2%;
+    
+}
+
+#bookCard > p{
+    margin-top : 2%;
+    margin-bottom : 2%; 
+}
+
+#bookCard > h4{
+    margin-top : 2%;
+    margin-bottom : 2%; 
+}
+
+#bookCard > button{
+    background-color: white;
+    cursor: pointer;
+}
+
+#bookCard > button:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+#clearLibrary{
+    margin: 2% 1% 1% 1%;
+    text-align: center;
+    font-family: "Open Sans", "sans-serif";
+    background-color: rgb(255, 136, 136);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border: solid thin rgb(255, 41, 41);
+}
+
+#clearLibrary:hover{
+    background-color: rgb(255, 55, 55);
+    cursor: pointer;
+
+}

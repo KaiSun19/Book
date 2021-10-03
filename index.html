@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<header>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+</header>
+<script src="script.js" defer></script>
+<body>
+
+<h1 id = "Header"> My Library </h1>
+<div id = "Catalogue">
+</div>
+<div class = "container">
+    <button class="popForm"> <span>Add Book</span></button>
+</div>
+
+
+
+<div id = "bookForm">
+    <form action = "" method = "post">
+        <h3>Enter Book Details</h3>
+        <fieldset>
+            <input id = "author" placeholder="Author" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+            <input  id = "title" placeholder="Title" type="text" tabindex="2" required autofocus>
+        </fieldset>
+        <fieldset>
+            <input id ="pages" placeholder="Number of Pages" type="text" tabindex="3" required autofocus>
+        </fieldset>
+        <fieldset>
+            <p>Have you read it yet?</p>
+            <input type="radio" id="Yes" name="read" value="Yes">
+            <label for="Yes">Yes</label><br>
+            <input type="radio" id="No" name="read" value="No">
+            <label for="No">No</label><br>
+        </fieldset>
+        <fieldset>
+            <button name="save" type="submit" id="book-submit" onclick = "addBook();">Submit</button>
+        </fieldset>
+    </form>
+</div>
+
+
+</body>
+</html> 
